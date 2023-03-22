@@ -1,0 +1,11 @@
+python -m venv venv
+.\venv\Scripts\activate
+python -m pip install openai
+python -m pip install spotipy
+$ENV:OPENAI_API_KEY = "<your-key-value-here>"
+$ENV:SPOTIFY_USER_ID = "<your-key-value-here>"
+$ENV:SPOTIFY_OAUTH_TOKEN = "<your-key-value-here>"
+$ENV:SPOTIPY_CLIENT_SECRET = "<your-key-value-here>"
+$ENV:SPOTIPY_CLIENT_ID = "<your-key-value-here>"
+$ENV:SPOTIPY_REDIRECT_URI = "<your-key-value-here>"
+
