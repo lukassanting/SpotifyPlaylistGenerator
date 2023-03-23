@@ -1,5 +1,6 @@
 python -m venv venv
 .\venv\Scripts\activate
+python -m pip install --upgrade pip
 python -m pip install openai
 python -m pip install spotipy
 $ENV:OPENAI_API_KEY = "<your-key-value-here>"
