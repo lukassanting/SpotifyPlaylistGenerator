@@ -4,3 +4,5 @@ The intention of this codebase is that it will use both OpenAI's ChatGPT &amp; S
 The current version is slightly clunky, but provided you have sent up all of the relevant keys and run the commands in the file, you can run the main.py file to create a playlist that will automatically be added to your Spotify account.
 
 Future updates will hopefully tackle the clunkiness of verification that is currently necessary, tackle some strange effects on the Spotify side, improve prompting and add the auto-generation of images for the playlist icon.
+
+*NOTICE, May 2023* Due to changes in the API since creating this, the code may not work anymore. This is a hobby project that I need to update, and will get back to soon. No promises that it is fully functional at the moment!
